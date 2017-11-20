@@ -38,7 +38,8 @@ public class Maman12a {
                     getRandomExpression()));
         }
         
-        System.out.println("List of expressions:");
+        System.out.println("List of expressions (the equal sign is for convenience,"
+                + " not expressions equality!):");
         for(Expression expression : EXPRESSIONS) {
             if(expression instanceof AtomicExpression) {
                 System.out.println("\t" + expression.toString());
