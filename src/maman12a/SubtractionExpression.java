@@ -22,6 +22,6 @@ public class SubtractionExpression extends CompoundExpression {
     
     @Override
     public String toString() {
-        return operand1.toString() + " - " + operand2.toString();
+        return "(" + operand1.toString() + ")" + " - " + "(" + operand2.toString() + ")";
     }
 }
