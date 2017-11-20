@@ -12,7 +12,7 @@ package maman12a;
 public class AtomicExpression extends Expression {
     private final double number;
     
-    AtomicExpression(double number) {
+    public AtomicExpression(double number) {
         this.number = number;
     }
     
